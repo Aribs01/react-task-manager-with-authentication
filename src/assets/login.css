@@ -1,0 +1,59 @@
+.form{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+
+}
+.welcome{
+    color: #224957;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+.form-field{
+    margin-top: 25px;
+    border-radius: 20px;
+    border: none;
+}
+.form-input{
+    /* background-color: #224957; */
+    width: 290px;
+    height: 42px;
+    border-radius: 10px;
+    color: black;
+    /* padding: 20px; */
+    border: none;
+    transition-duration: 0.3s;
+}
+.form-input::placeholder{
+    font-size: 15px;
+    color: black;
+}
+.form-button{
+    top: 20px;
+    position: relative;
+}
+.login-button{
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #323e4d;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    transition-duration: 0.3s;
+    border: none;
+}
+.login-button:hover{
+    cursor: pointer;
+    color: #224957;
+    background-color: #fff;
+    border: 1px solid #323e4d;
+}
